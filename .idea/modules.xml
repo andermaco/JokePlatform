@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JokePlatform.iml" filepath="$PROJECT_DIR$/JokePlatform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jokeplatformbackend/jokeplatformbackend.iml" filepath="$PROJECT_DIR$/jokeplatformbackend/jokeplatformbackend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jokeplatformdatalib/jokeplatformdatalib.iml" filepath="$PROJECT_DIR$/jokeplatformdatalib/jokeplatformdatalib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jokeplatformviewlib/jokeplatformviewlib.iml" filepath="$PROJECT_DIR$/jokeplatformviewlib/jokeplatformviewlib.iml" />
+    </modules>
+  </component>
+</project>

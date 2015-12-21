@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JokePlatformViewLib</string>
+    <string name="text_joke">No joke were found</string>
+    <string name="action_settings">Settings</string>
+</resources>
