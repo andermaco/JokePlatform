@@ -4,7 +4,19 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8ab59d21-ba1f-46b7-a48d-e3c471c8b678" name="Default" comment="Added spinner">
+    <list default="true" id="8ab59d21-ba1f-46b7-a48d-e3c471c8b678" name="Default" comment="removed data">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/libs/jokeplatformbackend-android-endpoints.jar" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/libs/jokeplatformbackend-android-endpoints.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/client-libs/myApi-v1-java.zip" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/client-libs/myApi-v1-java.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/generated-source/endpoints/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApi.java" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/generated-source/endpoints/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApi.java" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/generated-source/endpoints/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiRequest.java" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/generated-source/endpoints/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiRequest.java" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiRequest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/generated-source/endpoints/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiRequestInitializer.java" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/generated-source/endpoints/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiRequestInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiRequestInitializer.java" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiRequestInitializer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/generated-source/endpoints/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiScopes.java" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/generated-source/endpoints/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiScopes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiScopes.java" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/MyApiScopes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/generated-source/endpoints/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/model/MyBean.java" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/generated-source/endpoints/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/model/MyBean.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jokeplatformbackend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/model/MyBean.java" afterPath="$PROJECT_DIR$/jokeplatformbackend/build/tmp/appengineEndpointsExpandClientLibs/myApi-v1-java.zip-unzipped/myApi/src/main/java/gradle/udacity/com/jokeplatformbackendlib/backend/myApi/model/MyBean.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -181,26 +193,28 @@
         <entry file="file://$PROJECT_DIR$/app/src/free/java/com/udacity/gradle/jokeplatformapp/InterstitialActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+              <folding>
+                <element signature="e#853#890#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.6785715">
+              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13711151">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/free/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.0714285">
+            <state vertical-scroll-proportion="0.054844607">
               <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
               <folding />
             </state>
@@ -210,6 +224,11 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ander &lt;andermaco@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -5494,7 +5513,13 @@
       <option name="project" value="LOCAL" />
       <updated>1451215830493</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="removed data">
+      <created>1451216482008</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1451216482008</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -5508,7 +5533,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -5531,7 +5556,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.4941957" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973376" sideWeight="0.4941957" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6295884" sideWeight="0.59531415" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -5555,7 +5580,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added spinner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added spinner" />
+    <MESSAGE value="removed data" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -5907,23 +5933,25 @@
     <entry file="file://$PROJECT_DIR$/app/src/free/java/com/udacity/gradle/jokeplatformapp/InterstitialActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="70" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
+          <folding>
+            <element signature="e#853#890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6785715">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/free/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.0714285">
+        <state vertical-scroll-proportion="0.054844607">
           <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13711151">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="35" />
           <folding />
         </state>
       </provider>
