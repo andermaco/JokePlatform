@@ -3,28 +3,23 @@ package com.udacity.gradle.jokeplatformapp;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
+import android.widget.ProgressBar;
 
 import gradle.udacity.com.jokeplatformviewlib.JokeActivity;
 
 
 public class MainActivity extends ActionBarActivity {
-
+    public static final String TAG = MainActivity.class.getSimpleName();
+    private ProgressBar spinner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        AdView mAdView = (AdView) findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-        mAdView.loadAd(adRequest);
+        spinner = (ProgressBar)findViewById(R.id.progressBar);
+        spinner.setVisibility(View.GONE);
     }
 
 
@@ -51,15 +46,22 @@ public class MainActivity extends ActionBarActivity {
 
     public void tellJoke(View view){
         new EndpointsAsyncTask(new EndPointHandler()).execute();
+        spinner.setVisibility(View.VISIBLE);
     }
 
     private class EndPointHandler implements EndpointsAsyncTask.OnEndpointsAsyncTaskListener {
 
         @Override
         public void onEndPointAction(String result) {
-            Intent intent = new Intent(MainActivity.this, JokeActivity.class);
+            Intent intent = new Intent (MainActivity.this, InterstitialActivity.class);
             intent.putExtra(JokeActivity.JOKE_STRING, result);
             startActivity(intent);
         }
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        spinner.setVisibility(View.GONE);
     }
 }

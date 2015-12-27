@@ -17,6 +17,7 @@ import gradle.udacity.com.jokeplatformbackendlib.backend.myApi.MyApi;
 public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
         private static MyApi myApiService = null;
         private OnEndpointsAsyncTaskListener onEndpointsAsyncTaskListener;
+    private static final String APP_NAME = "JokePlatform";
 
     public EndpointsAsyncTask(OnEndpointsAsyncTaskListener onEndpointsAsyncTaskListener) {
             this.onEndpointsAsyncTaskListener = onEndpointsAsyncTaskListener;
@@ -36,7 +37,8 @@ public class EndpointsAsyncTask extends AsyncTask<Void, Void, String> {
                             public void initialize(AbstractGoogleClientRequest<?> abstractGoogleClientRequest) throws IOException {
                                 abstractGoogleClientRequest.setDisableGZipContent(true);
                             }
-                        });
+                        })
+                        .setApplicationName(APP_NAME);
                 myApiService = builder.build();
             }
             try {

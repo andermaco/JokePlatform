@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 /**
@@ -13,6 +14,7 @@ import android.widget.TextView;
  */
 public class JokeActivityFragment extends Fragment {
 
+    private ProgressBar spinner;
     public JokeActivityFragment() {}
 
     @Override
